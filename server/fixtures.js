@@ -1,0 +1,30 @@
+if (Workouts.find().count() === 0) {
+  Workouts.insert({title: "Burn Circuit 1", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 2", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 3", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Rest Day (YAY)", time: "0"});
+  Workouts.insert({title: "Burn Circuit 1", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 2", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 3", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Rest Day (YAY)", time: "0"});
+  Workouts.insert({title: "Burn Circuit 1", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 2", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 3", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Rest Day (YAY)", time: "0"});
+  Workouts.insert({title: "Burn Circuit 1", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 2", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Burn Circuit 3", time: "35"});
+  Workouts.insert({title: "RUN"           , time: "??"});
+  Workouts.insert({title: "Rest Day (YAY)", time: "0"});
+}
