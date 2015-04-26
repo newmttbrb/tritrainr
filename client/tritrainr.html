@@ -1,0 +1,21 @@
+<head>
+  <title>tritrainr</title>
+</head>
+
+<body>
+  <h1>TriTrainr!</h1><h2>now with an excalation point</h2>
+
+  {{> workoutList}}
+</body>
+
+<template name="workoutList">
+  {{#each workouts}}
+    {{>workoutItem}}
+  {{/each}}
+</template>
+
+<template name="workoutItem">
+  <div class="workout">
+    <span>workout:{{title}}:{{time}}</span>
+  </div>
+</template>
