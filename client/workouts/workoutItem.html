@@ -1,5 +1,13 @@
 <template name="workoutItem">
   <div class="workout">
-    <span>workout:<a>{{title}}</a>:{{time}}</span>
+    <div class="workout-content">
+      <h4>
+        <a href="/">{{title}}</a>
+        <span>
+          time: {{time}}
+          <a href="{{pathFor 'workoutPage'}}" class="discuss btn btn-default">Details</a>
+        </span>
+      </h4>
+    </div>
   </div>
 </template>
