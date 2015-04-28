@@ -1,3 +1,4 @@
 # tritrainr
 
-Just create toy program while learning meteor 
+Just creating a toy program while learning meteor 
+
