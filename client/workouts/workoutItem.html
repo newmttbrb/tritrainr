@@ -1,13 +1,12 @@
 <template name="workoutItem">
   <div class="workout">
     <div class="workout-content">
-      <h4>
-        <a href="/">{{title}}</a>
-        <span>
-          time: {{time}}
-          <a href="{{pathFor 'workoutPage'}}" class="discuss btn btn-default">Details</a>
-        </span>
-      </h4>
+        <a href="{{pathFor 'workoutPage'}}" class="btn btn-default">
+          {{title}}
+          <p>
+            {{time}} minutes
+          </p>
+        </a>
     </div>
   </div>
 </template>
